@@ -1,15 +1,26 @@
-// Super class for player and ai
+// sub class of Player
+const prompt = require('prompt-sync')();
+const Player = require('./Player');
 
-class Human {
-    constructor(name){;
-    this.name = name;
-    this.points = points;
+class Human extends Player {
+    constructor(playerNum) {
+        super();
+        this.setName(playerNum)
 
-}
+    }
+
+    setName(playerNum) {
+        console.log(`What is your name ${playerNum}?`);
+        this.name = prompt();
+    }
+
+    chooseGesture() {
+        //method to choose gesture    
+    }
 
 
 }
 
 module.exports = {
-    Human:Human,
+    Human: Human,
 }

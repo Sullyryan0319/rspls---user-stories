@@ -3,5 +3,5 @@
 // Instantiation
 // Execution
 
-const Game = require("./game");
+const Game = require("./Game");
 
