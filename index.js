@@ -3,5 +3,5 @@
 // Instantiation
 // Execution
 
-let test = "Hello World.";
-console.log(test);
+const Game = require("./game");
+

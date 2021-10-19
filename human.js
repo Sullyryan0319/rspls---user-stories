@@ -3,7 +3,13 @@
 class Human {
     constructor(name){;
     this.name = name;
-    this.record = record;
+    this.points = points;
 
 }
+
+
+}
+
+module.exports = {
+    Human:Human,
 }

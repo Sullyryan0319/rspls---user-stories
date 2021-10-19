@@ -4,12 +4,13 @@
   "description": "Rock Paper Scissors Lizard Spock Simulator Using OOP",
   "main": "index.js",
   "dependencies": {
-    "package.json": "^2.0.1"
+    "package.json": "^2.0.1",
+    "prompt-sync": "^4.2.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    ,"start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
