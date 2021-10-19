@@ -1,0 +1,1 @@
+// sub class of Human, use inheritance to exchange data
