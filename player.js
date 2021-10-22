@@ -1,4 +1,3 @@
-// Super class for human and AI
 
 
 class Player {
@@ -11,7 +10,6 @@ class Player {
 
 
     chooseGesture() {
-        // method to choose gesture
     }
 }
 

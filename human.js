@@ -1,4 +1,3 @@
-// sub class of Player
 const prompt = require('prompt-sync')();
 const { Player } = require('./Player');
 
@@ -30,7 +29,6 @@ class Human extends Player {
             this.chooseGesture();
         }
         else this.chosenGesture = this.gestures[userInput - 1];
-        //method to choose gesture    
     }
 
 

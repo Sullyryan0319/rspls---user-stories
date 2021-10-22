@@ -1,8 +1,4 @@
-//rock crushes scissors, scissors cuts paper 
-//paper covers rock, rock crushes lizard
-//lizard poisons spock, spock smashed scissors
-//scissors decap lizard, lizard eats paper
-//paper disproves spock, spock vaporizes rock
+
 const prompt = require('prompt-sync')();
 const { AI } = require('./AI');
 const { Human } = require('./Human');

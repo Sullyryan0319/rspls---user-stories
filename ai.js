@@ -1,4 +1,3 @@
-// sub class of Player, use inheritance to exchange data
 const {Player} = require('./Player');
 
 class AI extends Player {
